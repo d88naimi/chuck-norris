@@ -48,13 +48,13 @@ const Form = ({ onClick, onCategoryChange, onQueryChange, clearState }) => {
           classes={{ label: classes.label }}
           onChange={handleChange}
         />
-        <FormControlLabel
+        {/* <FormControlLabel
           value="b"
           control={<Radio />}
           label="From categories"
           classes={{ label: classes.label }}
           onChange={handleChange}
-        />
+        /> */}
         {/* {value === "b" && <Categories onSelect={onCategoryChange} />} */}
         <FormControlLabel
           value="c"

@@ -79,6 +79,11 @@ function Random() {
             onCategoryChange={handleCategoryChange}
             onQueryChange={handleQueryChange}
           />
+          <div>
+            {searchJoke.result?.map((joke) => (
+              <li key={joke?.id}>{joke?.value}</li>
+            ))}
+          </div>
         </CardContent>
       </Card>
     </div>
